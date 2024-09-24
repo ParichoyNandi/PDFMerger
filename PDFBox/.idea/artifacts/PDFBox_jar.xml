@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="PDFBox:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PDFBox_jar</output-path>
+    <root id="root">
+      <element id="archive" name="PDFBox.jar">
+        <element id="module-output" name="PDFBox" />
+      </element>
+      <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:pdfbox:2.0.26" />
+      <element id="library" level="project" name="Maven: org.apache.pdfbox:fontbox:2.0.26" />
+    </root>
+  </artifact>
+</component>
