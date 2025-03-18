@@ -17,15 +17,19 @@
         </developer>
     </developers>
     <dependencies>
+        <!-- Use the local JAR for PDFBox -->
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>pdfbox</artifactId>
-            <version>2.0.22</version>
+            <version>3.0.3</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/pdfbox-app-3.0.3.jar</systemPath>
         </dependency>
+        <!-- You may still need commons-logging if the JAR relies on it -->
         <dependency>
-            <groupId>org.apache.pdfbox</groupId>
-            <artifactId>pdfbox</artifactId>
-            <version>3.0.0-alpha3</version>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
         </dependency>
     </dependencies>
 </project>
